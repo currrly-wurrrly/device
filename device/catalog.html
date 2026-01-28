@@ -15,7 +15,7 @@
 <body class="page-body inner-page">
     <header class="main-header container main-header-inner-page">
         <nav class="main-navigation main-navigation-inner-page">
-            <a>
+            <a href="index.html">
                 <img class="main-header-logo" src="/img/logo/logo.svg" width="163" height="35" alt="Логотип «DEVICE»">
             </a>
             <div class="header-first-level">
@@ -109,23 +109,23 @@
                             <legend>Цвет</legend>
                             <ul>
                                 <li class="filter-option filter-checkbox">
-                                    <input checked type="checkbox" name="black" id="filter-black">
+                                    <input class="visually-hidden filter-input-checkbox filter-input" checked type="checkbox" name="black" id="filter-black">
                                     <label for="filter-black">Черный</label>
                                 </li>
-                                <li>
-                                    <input type="checkbox" name="white" id="filter-white">
+                                <li class="filter-option filter-checkbox">
+                                    <input class="visually-hidden filter-input-checkbox filter-input" type="checkbox" name="white" id="filter-white">
                                     <label for="filter-white">Белый</label>
                                 </li>
-                                <li>
-                                    <input checked type="checkbox" name="dark-blue" id="filter-dark-blue">
+                                <li class="filter-option filter-checkbox">
+                                    <input class="visually-hidden filter-input-checkbox filter-input" checked type="checkbox" name="dark-blue" id="filter-dark-blue">
                                     <label for="filter-dark-blue">Синий</label>
                                 </li>							
-                                <li>
-                                    <input checked type="checkbox" name="red" id="filter-red">
+                                <li class="filter-option filter-checkbox">
+                                    <input class="visually-hidden filter-input-checkbox filter-input" checked type="checkbox" name="red" id="filter-red">
                                     <label for="filter-red">Красный</label>
                                 </li>
-                                <li>
-                                    <input type="checkbox" name="pink" id="filter-pink">
+                                <li class="filter-option filter-checkbox">
+                                    <input class="visually-hidden filter-input-checkbox filter-input" type="checkbox" name="pink" id="filter-pink">
                                     <label for="filter-pink">Розовый</label>
                                 </li>
                             </ul>
@@ -133,17 +133,17 @@
                         <fieldset>
                             <legend>Bluetooth</legend>
                             <ul>
-                                <li>
-                                    <input checked type="radio" name="bluetooth-yes" id="filter-bluetooth-yes">
+                                <li class="filter-option filter-radio">
+                                    <input class=" filter-input-radio visually-hidden" checked type="radio" name="bluetooth" id="filter-bluetooth-yes">
                                     <label for="filter-bluetooth-yes">Есть</label>
                                 </li>
-                                <li>
-                                    <input type="radio" name="bluetooth-no" id="filter-bluetooth-no">
+                                <li class="filter-option filter-radio">
+                                    <input class=" filter-input-radio visually-hidden" type="radio" name="bluetooth" id="filter-bluetooth-no">
                                     <label for="filter-bluetooth-no">Нет</label>
                                 </li>
                             </ul>
                         </fieldset>
-                        <button class="button button-send" type="submit">Показать</button>
+                        <button class="button button-filter-send" type="submit"><span>Показать</span></button>
                     </form>
                 </div> 
             </div> <!-- КОНЕЦ ЛЕВОЙ КОЛОНКИ -->
@@ -184,7 +184,7 @@
                                 </a>
                                 <p class="item-price">1 100 руб.</p>
                             </div>
-                            <button class="button button-send display-none" type="button">в корзину</button>
+                            <button class="button button-send display-none" type="button"><span>в корзину</span></button>
                             <button class="button-compare display-none" type="button">Добавить к сравнению</button>
                         </li>
                         <li class="catalog-item">
@@ -197,7 +197,7 @@
                                 </a>
                                 <p class="item-price">1 500 руб.</p>
                             </div>
-                            <button class="button button-send display-none" type="button">в корзину</button>
+                            <button class="button button-send display-none" type="button"><span>в корзину</span></button>
                             <button class="button-compare display-none" type="button">Добавить к сравнению</button>
                         </li>
                         <li class="catalog-item">
@@ -210,7 +210,7 @@
                                 </a>
                                 <p class="item-price">1 500 руб.</p>
                             </div>
-                            <button class="button button-send display-none" type="button">в корзину</button>
+                            <button class="button button-send display-none" type="button"><span>в корзину</span></button>
                             <button class="button-compare display-none" type="button">Добавить к сравнению</button>
                         </li>
                         <li class="catalog-item">
@@ -223,7 +223,7 @@
                                 </a>
                                 <p class="item-price">1 900 руб.</p>
                             </div>
-                            <button class="button button-send display-none" type="button">в корзину</button>
+                            <button class="button button-send display-none" type="button"><span>в корзину</span></button>
                             <button class="button-compare display-none" type="button">Добавить к сравнению</button>
                         </li>
                     </ul>
@@ -254,7 +254,7 @@
 	<footer class="main-footer">
         <div class="container">
             <div class="footer-first-level">
-                <a>
+                <a href="index.html">
                     <img class="footer-logo" src="/img/logo/logo_footer.svg" width="163" height="35" alt="Логотип «DEVICE»">
                 </a>
                 <ul class="footer-site-navigation footer-site-navigation-sign-in">
